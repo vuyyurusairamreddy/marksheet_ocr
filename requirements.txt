@@ -2,17 +2,17 @@
 streamlit==1.29.0
 
 # Data processing
-numpy==1.26.4           # compatible with pandas 2.1.4
-pandas==2.1.4
+numpy==1.26.4
+pandas==2.2.3          # Python 3.13 compatible
 
 # Image processing
-Pillow==10.4.0          # first release with Python 3.13 wheels
-PyMuPDF==1.24.9         # >=1.24 needed for Python 3.13
+Pillow==10.4.0         # first release with Python 3.13 wheels
+PyMuPDF==1.24.9        # >=1.24 needed for Python 3.13
 pytesseract==0.3.10
-opencv-python-headless==4.8.1.78   # headless version for servers
+opencv-python-headless==4.8.1.78
 
 # Logging & formatting
-rich==13.7.1            # <14 to satisfy streamlit==1.29.0
+rich==13.7.1           # <14 to satisfy streamlit==1.29.0
 markdown-it-py==4.0.0
 mdurl==0.1.2
 pygments==2.19.2
@@ -30,5 +30,5 @@ langchain-community==0.0.10
 # Visualization
 plotly==5.17.0
 
-# Optional: OCR dependencies (if you are using PaddleOCR or Tesseract)
+# Optional: OCR dependencies
 paddleocr==2.7.0.1
