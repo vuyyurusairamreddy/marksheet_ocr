@@ -1,10 +1,10 @@
-streamlit==1.29.0
-Pillow==10.1.0
+#streamlit==1.29.0
+#Pillow==10.1.0
 PyMuPDF==1.23.8
 pytesseract==0.3.10
 opencv-python==4.8.1.78
-numpy==1.24.3
-pandas==2.1.4
+#numpy==1.24.3
+#pandas==2.1.4
 python-dotenv==1.0.0
 httpx==0.25.2
 requests==2.31.0
@@ -12,3 +12,22 @@ pydantic==2.5.0
 langchain==0.1.0
 langchain-community==0.0.10
 plotly==5.17.0
+# Core packages
+streamlit==1.29.0
+
+# Data processing
+numpy==1.26.4           # compatible with pandas 2.1.4
+pandas==2.1.4
+
+# Image processing
+Pillow==10.0.0           # compatible with Python 3.13
+
+# Logging & formatting
+rich==14.1.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
+
+# Optional: OCR dependencies (if you are using PaddleOCR or Tesseract)
+paddleocr==2.7.0.1      # check your app code
+opencv-python-headless==4.8.1.78
