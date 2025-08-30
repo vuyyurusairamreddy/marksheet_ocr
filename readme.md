@@ -84,9 +84,8 @@ streamlit run app.py
 
 ### Model Selection
 Choose from available OpenAI models:
-- `gpt-4-vision-preview` (recommended for images)
-- `gpt-4` (text analysis)
-- `gpt-3.5-turbo` (faster, less accurate)
+- `sonar-pro` (recommended for images)
+
 
 ### Confidence Threshold
 Adjust the minimum confidence threshold to filter out uncertain extractions.
@@ -274,7 +273,7 @@ If you encounter any issues:
 
 ## Acknowledgments
 
-- OpenAI for the GPT models
+- perplixty for the sonar-pro models
 - Tesseract OCR for text extraction
 - Streamlit for the web interface
 - pdf2image for PDF processing
