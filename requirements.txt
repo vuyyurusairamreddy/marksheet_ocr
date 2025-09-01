@@ -7,7 +7,8 @@ pandas==2.2.3          # Python 3.13 compatible
 
 # Image processing
 Pillow==10.4.0
-PyMuPDF==1.24.10       # works with Python 3.13 (no compile needed)
+      # works with Python 3.13 (no compile needed)paddleocr>=2.8.0
+PyMuPDF>=1.24.10
 pytesseract==0.3.10
 opencv-python-headless==4.8.1.78
 
@@ -32,4 +33,4 @@ langchain-community==0.0.10
 plotly==5.17.0
 
 # OCR
-paddleocr==2.7.0.1
+paddleocr>=2.8.0
