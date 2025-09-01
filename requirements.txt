@@ -21,7 +21,9 @@ pygments==2.19.2
 python-dotenv==1.0.0
 httpx==0.25.2
 requests==2.31.0
-pydantic==2.5.0
+pydantic==2.8.2
+pydantic-core==2.20.1
+
 
 # LangChain ecosystem
 langchain==0.1.0
